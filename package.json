@@ -12,9 +12,10 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "audit:critical": "npm audit --audit-level=critical"
+    "audit:critical": "npm audit --audit-level=high"
   },
   "dependencies": {
+    "express": "^4.16.2",
     "lodash": "^4.17.15"
   }
 }
